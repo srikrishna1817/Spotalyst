@@ -1,4 +1,4 @@
-# 🌍 Spot Explorer
+# 🌍 Spotalyst
 
 A comprehensive web application for discovering, managing, and planning visits to amazing places around the world. Built with React, Node.js, Express, and MongoDB.
 
@@ -63,46 +63,6 @@ Before running this application, make sure you have:
 - **MongoDB** account and cluster
 - **LocationIQ** API key (free tier available)
 
-## ⚙️ Installation & Setup
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/spot-explorer.git
-cd spot-explorer
-```
-
-### 2. Install Dependencies
-```bash
-# Install server dependencies
-npm install
-
-# Install client dependencies
-cd client
-npm install
-cd ..
-```
-
-### 3. Environment Configuration
-Create a `.env` file in the root directory:
-```env
-PORT=5000
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/spotExplorerDB?retryWrites=true&w=majority
-```
-
-### 4. LocationIQ API Setup
-1. Sign up at [LocationIQ](https://locationiq.com/)
-2. Get your free API key
-3. Update the API key in `client/src/App.js`:
-```javascript
-const LOCATIONIQ_API_KEY = "your_api_key_here";
-```
-
-### 5. MongoDB Setup
-1. Create a MongoDB Atlas account
-2. Create a new cluster
-3. Create a database user
-4. Get your connection string
-5. Update the `MONGO_URI` in your `.env` file
 
 
 The application will be available at:

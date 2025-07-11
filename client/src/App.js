@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const LOCATIONIQ_API_KEY = "pk.a14e0e5be29c6e18461a6de200c96577";
 
 function App() {
   const [spots, setSpots] = useState([]);

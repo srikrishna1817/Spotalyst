@@ -19,7 +19,7 @@ const createSpot = async (req, res) => {
     await newSpot.save();
 
     // 🔗 Replace this with your actual n8n webhook URL
-    const n8nWebhookURL = 'https://openagent01.app.n8n.cloud/webhook/generate-plan';
+    const n8nWebhookURL = //webhook url
     let itinerary = '';
 
     try {

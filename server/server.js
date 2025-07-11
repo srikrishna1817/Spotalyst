@@ -25,13 +25,11 @@ app.get('/', (req, res) => {
 
 // Route Imports
 const spotRoutes = require('./routes/spotRoutes');
-const activityRoutes = require('./routes/activityRoutes');
-const feedbackRoutes = require('./routes/feedbackRoutes'); // optional
+
 
 // Use Routes
 app.use('/api', spotRoutes);
-app.use('/api', activityRoutes);
-app.use('/api', feedbackRoutes); // optional
+
 
 
 // Start the server
